@@ -1,0 +1,18 @@
+/* frontend/style.css - simple modern card */
+body {
+  display:flex; align-items:center; justify-content:center;
+  min-height:100vh; margin:0; font-family:Arial, sans-serif;
+  background: linear-gradient(135deg,#eef2ff,#f8fafc);
+}
+.card {
+  width:320px; padding:20px; border-radius:12px; box-shadow:0 10px 30px rgba(2,6,23,0.12);
+  background: white; text-align:center;
+}
+.card h1 { margin:0 0 12px; font-size:20px; color:#111827; }
+.card input { width:100%; padding:10px; margin:8px 0; border-radius:6px; border:1px solid #e5e7eb; }
+.card button {
+  width:100%; padding:10px; border-radius:6px; border:0; background:#2563eb; color:white;
+  cursor:pointer; font-weight:600;
+}
+.result { margin-top:12px; font-size:16px; min-height:24px; }
+.note { margin-top:10px; font-size:12px; color:#6b7280; }
